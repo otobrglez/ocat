@@ -3,7 +3,7 @@ FRAMEWORKS= -framework Foundation
 LIBRARIES= -lobjc
 FLAGS= -Wall -Werror -g -x objective-c
 
-# all: run-04 # for debug
+# all: run-04
 all: day-01 day-02 day-03 day-04
 
 clean: clean-01 clean-02 clean-03 clean-04
@@ -47,7 +47,8 @@ run-03: day-03
 
 day-04: clean-04
 	$(CC) $(FLAGS) $(LIBRARIES) $(FRAMEWORKS) \
-		-o day-04 src/04/main.m src/04/car.m
+		-o day-04 src/04/main.m \
+		src/04/Car.m src/04/NSString+reverse.m
 
 clean-04:
 	rm -rf day-04 *.dSYM

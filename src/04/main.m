@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
+#import "NSString+reverse.h"
 
 int main(int argc, const char * argv[]){
   NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
@@ -17,6 +18,12 @@ int main(int argc, const char * argv[]){
   NSLog(@"Color of car is %@.", [myCar color]);
 
   [myCar release];
+
+
+  NSString *myString = [[NSString alloc] init];
+  myString = @"Oto Was hEre";
+
+  NSLog(@"Reverse %@", [myString reverseString]);
 
   [pool drain];
   return EXIT_SUCCESS;
