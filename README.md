@@ -8,7 +8,8 @@ This are my experiments with Objective-C.
 
 - [Day 01](src/01) - Simple Objective-C app with loops.
 - [Day 02](src/02) - Interface, implementation, and simple class.
-- [Day 03](src/03) - Pointers and more classes.
+- [Day 03](src/03) - Pointers and some classes.
+- [Day 04](src/04) - Classes, setters, getters and [LLDB](https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html).
 
 ## Building examples
 
