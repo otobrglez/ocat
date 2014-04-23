@@ -10,6 +10,7 @@ This are my experiments with Objective-C.
 - [Day 02](src/02) - Interface, implementation, and simple class.
 - [Day 03](src/03) - Pointers and some classes.
 - [Day 04](src/04) - Classes, setters, getters, properties, categories and [LLDB](https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html).
+- [Day 05](src/05) - [CocoaPods](http://cocoapods.org/) & XCode and [xcodebuild](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html).
 
 ## Building examples
 

@@ -1,0 +1,17 @@
+# Logfile created on 2014-04-23 17:10:31 +0100 by logger.rb/44203
+I, [2014-04-23T17:10:31.963862 #28451]  INFO -- : 6:  claide (0.5.0) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/claide-0.5.0.gemspec
+I, [2014-04-23T17:10:31.988173 #28449]  INFO -- : 4:  multi_json (1.9.2) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/multi_json-1.9.2.gemspec
+I, [2014-04-23T17:10:32.039641 #28450]  INFO -- : 5:  nap (0.7.0) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/nap-0.7.0.gemspec
+I, [2014-04-23T17:10:32.100066 #28447]  INFO -- : 2:  i18n (0.6.9) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/i18n-0.6.9.gemspec
+I, [2014-04-23T17:10:32.100733 #28447]  INFO -- : 2:  bundler (1.5.1) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2014-04-23T17:10:32.135807 #28452]  INFO -- : 7:  fuzzy_match (2.0.4) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/fuzzy_match-2.0.4.gemspec
+I, [2014-04-23T17:10:32.445537 #28448]  INFO -- : 3:  cocoapods-try (0.2.0) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/cocoapods-try-0.2.0.gemspec
+I, [2014-04-23T17:10:32.465411 #28445]  INFO -- : 0:  json_pure (1.8.1) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/json_pure-1.8.1.gemspec
+I, [2014-04-23T17:10:32.551735 #28446]  INFO -- : 1:  cocoapods-downloader (0.5.0) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/cocoapods-downloader-0.5.0.gemspec
+I, [2014-04-23T17:10:32.744139 #28451]  INFO -- : 6:  colored (1.2) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/colored-1.2.gemspec
+I, [2014-04-23T17:10:32.763919 #28449]  INFO -- : 4:  escape (0.0.4) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/escape-0.0.4.gemspec
+I, [2014-04-23T17:10:32.824423 #28450]  INFO -- : 5:  open4 (1.3.3) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/open4-1.3.3.gemspec
+I, [2014-04-23T17:10:33.119398 #28447]  INFO -- : 2:  activesupport (3.2.17) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/activesupport-3.2.17.gemspec
+I, [2014-04-23T17:10:33.976529 #28452]  INFO -- : 7:  cocoapods-core (0.32.1) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/cocoapods-core-0.32.1.gemspec
+I, [2014-04-23T17:10:34.833088 #28448]  INFO -- : 3:  xcodeproj (0.16.1) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/xcodeproj-0.16.1.gemspec
+I, [2014-04-23T17:10:36.283877 #28445]  INFO -- : 0:  cocoapods (0.32.1) from /Users/otobrglez/.rvm/gems/ruby-2.1.0@ocat/specifications/cocoapods-0.32.1.gemspec

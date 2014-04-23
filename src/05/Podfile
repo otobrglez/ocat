@@ -1,0 +1,6 @@
+platform :osx, '10.7'
+
+xcodeproj './Day5/Day5.xcodeproj'
+
+pod 'JSONKit',       '~> 1.4'
+pod 'Reachability',  '~> 3.0'
