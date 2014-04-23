@@ -13,9 +13,13 @@ This are my experiments with Objective-C.
 
 Code for day can be build from command line with gcc pre-installed.
 
-    ```
-    make day-01
-    ./day-01
-    ```
+```
+make            # build all examples
+
+make day-01     # build just one
+./day-01        
+
+make clean      # clean everything
+```
 
 
