@@ -1,4 +1,4 @@
-all: day-01 day-02
+all: run-02
 
 clean: clean-01 clean-02
 
