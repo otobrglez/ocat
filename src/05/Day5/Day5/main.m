@@ -1,13 +1,25 @@
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
 
-  @autoreleasepool {
+    @autoreleasepool {
+        Person* justMe = [[Person alloc] init];
+        [justMe setFirstName:@"Oto"];
+        [justMe setLastName:@"Brglez"];
+        [justMe sayMyName];
 
-    NSLog(@"I'm using CocoaPods, XCode and external xcodebuild.");
+        Person* m = [Person personWithFirstName:@"Martina" andLastName:@"Heric"];
+        [m sayMyName];
 
-  }
+        NSMutableArray *array = [[NSMutableArray alloc] init];
+        [array addObject:@"Item A"];
+        [array addObject:@"Item B"];
 
-  return EXIT_SUCCESS;
+        // char input;
+        // scanf("%c", &input);
+
+    }
+    return EXIT_SUCCESS;
 }
 

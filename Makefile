@@ -3,9 +3,10 @@ FRAMEWORKS= -framework Foundation
 LIBRARIES= -lobjc
 FLAGS= -Wall -Werror -g -x objective-c
 CURRENT_DIR = $(shell pwd)
+BUILD_TOOL = xctool
 
-all: run-05
-# all: day-01 day-02 day-03 day-04 Day5
+# all: run-05
+all: day-01 day-02 day-03 day-04 Day5
 
 clean: clean-01 clean-02 clean-03 clean-04 clean-05
 
@@ -60,11 +61,11 @@ run-04: day-04
 ## day 5
 
 Day5: clean-05
-	xcodebuild -sdk macosx10.9 \
+	$(BUILD_TOOL) -sdk macosx10.9 \
 		-workspace src/05/Day5.xcworkspace \
 		-scheme Day5 \
 		-configuration Debug \
-		clean build \
+		build \
 		CONFIGURATION_BUILD_DIR=$(CURRENT_DIR)
 	ln -s Day5 day-05
 
