@@ -18,7 +18,7 @@ Examples are organized by days, each "day" can be built from Makefile located on
 ## Requirements
 
 - Ruby - with some VM like [RVM](https://rvm.io/)
-- [xctool](https://github.com/facebook/xctool)
+- [xctool](https://github.com/facebook/xctool) - install it with [Homebrew](http://brew.sh/): ```brew install xctool```
 - [CocoaPods](http://cocoapods.org/) - dependencies for each "day" are managed with [pods](http://guides.cocoapods.org/using/using-cocoapods.html)
 
 ## Building examples
