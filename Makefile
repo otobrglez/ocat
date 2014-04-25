@@ -6,9 +6,9 @@ CURRENT_DIR = $(shell pwd)
 BUILD_TOOL = xctool
 
 # all: run-05
-all: day-01 day-02 day-03 day-04 Day5
+all: day-01 day-02 day-03 day-04 Day5 day-06
 
-clean: clean-01 clean-02 clean-03 clean-04 clean-05
+clean: clean-01 clean-02 clean-03 clean-04 clean-05 clean-06
 
 ## day 1
 
@@ -74,3 +74,19 @@ clean-05:
 
 run-05: Day5
 	./Day5
+
+## day 6
+
+day-06: clean-06
+	$(BUILD_TOOL) -sdk macosx10.9 \
+		-workspace src/06/day-06.xcworkspace \
+		-scheme day-06 \
+		-configuration Debug \
+		build \
+		CONFIGURATION_BUILD_DIR=$(CURRENT_DIR)
+
+clean-06:
+	rm -rf day-06 *.a day-06.app
+
+run-06: day-06
+	open day-06.app

@@ -1,0 +1,5 @@
+platform :osx, '10.7'
+
+xcodeproj './day-06/day-06.xcodeproj'
+
+pod 'Reachability',  '~> 3.0'
