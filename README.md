@@ -1,6 +1,6 @@
 # Playing with Objective-C
 
-This experiments with [Objective-C](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html), [Cocoa](https://developer.apple.com/technologies/mac/cocoa.html), [Cocoa Touch](https://developer.apple.com/technologies/ios/cocoa-touch.html) and other Apple stuff.
+Experiments with [Objective-C](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html), [Cocoa](https://developer.apple.com/technologies/mac/cocoa.html), [Cocoa Touch](https://developer.apple.com/technologies/ios/cocoa-touch.html) and other Apple stuff.
 
 Examples are organized by days, each "day" can be built from Makefile located on projects root folder. Instructions on building can be found underneeth section [building examples](#building-examples). There are some [pre-requirements](#requirements) to build them.
 
@@ -17,21 +17,24 @@ Examples are organized by days, each "day" can be built from Makefile located on
 
 ## Requirements
 
-- Ruby (with some VM like [RVM](https://rvm.io/))
+- Ruby - with some VM like [RVM](https://rvm.io/)
 - [xctool](https://github.com/facebook/xctool)
-- [CocoaPods](http://cocoapods.org/) (dependencies for each project are managed with [pods](http://guides.cocoapods.org/using/using-cocoapods.html))
+- [CocoaPods](http://cocoapods.org/) - dependencies for each "day" are managed with [pods](http://guides.cocoapods.org/using/using-cocoapods.html)
 
 ## Building examples
 
-Code for can be build from command line.
+All code for can be build from command line.
 
 ```
-make            # build all examples
+make            # builds all examples
 
-make day-01     # build just one
-./day-01
+make day-01     # builds day-01
+./day-01        # runs day-01
 
-make clean      # clean everything
+make run-06     # builds and runs day-06
+make clean-06   # cleans everything that was build from day-06 code
+
+make clean      # cleans everything
 ```
 
 
