@@ -9,11 +9,15 @@ Examples are organized by days, each "day" can be built from Makefile located on
 ## Examples
 
 - [Day 01](src/01) - Simple Objective-C app with loops.
+![day-01](shots/day-01.png)
 - [Day 02](src/02) - Interface, implementation, and simple class.
 - [Day 03](src/03) - Pointers and some classes.
-- [Day 04](src/04) - Classes, setters, getters, properties, categories and [LLDB](https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html).
+- [Day 04](src/04) - Classes, setters, getters, properties, categories and [LLDB][LLDB].
 - [Day 05](src/05) - [CocoaPods](http://cocoapods.org/), XCode and [xctool](https://github.com/facebook/xctool).
-- [Day 06](src/06) - Getting to know [NSTextView](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTextView_Class/Reference/Reference.html), [NSButton](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSButton_Class/Reference/Reference.html) and way to build UIs in XCode.
+- [Day 06](src/06) - Getting to know [NSTextView](), [NSButton][NSButton] and way to build UIs in XCode.
+- [Day 07](src/07) - Introduction to [NSTableView][NSTableView] and [NSFileManager][NSFileManager]
+![day-07](shots/day-07.png)
+
 
 ## Requirements
 
@@ -37,4 +41,8 @@ make clean-06   # cleans everything that was build from day-06 code
 make clean      # cleans everything
 ```
 
-
+[NSTextView]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTextView_Class/Reference/Reference.html
+[NSButton]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSButton_Class/Reference/Reference.html
+[NSFileManager]: https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/classes/nsfilemanager_class/reference/reference.html
+[NSTableView]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTableView_Class/Reference/Reference.html
+[LLDB]: https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html
