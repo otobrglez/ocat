@@ -1,0 +1,5 @@
+platform :osx, '10.9'
+
+xcodeproj './day-07/day-07.xcodeproj'
+
+pod 'AFNetworking'
