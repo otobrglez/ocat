@@ -17,7 +17,7 @@ Examples are organized by days, each "day" can be built from Makefile located on
 - [Day 06](src/06) - Getting to know [NSTextView](), [NSButton][NSButton] and way to build UIs in XCode.
 - [Day 07](src/07) - Introduction to [NSTableView][NSTableView] and [NSFileManager][NSFileManager]
 ![day-07](shots/day-07.png)
-- [Day 08](src/08) - Exploring [AFNetworking 2.x][AFNetworking], subclassing of [NSTableCellView][NSTableCellView] and delegates.
+- [Day 08](src/08) - Simple OSX app that fetches list of [GitHub repositories](https://developer.github.com/v3/repos/#list-user-repositories) from user. Exploring [AFNetworking 2.x][AFNetworking], subclassing of [NSTableCellView][NSTableCellView] and delegates.
 ![day-08](shots/day-08.png)
 
 ## Requirements
