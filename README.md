@@ -6,7 +6,7 @@ Examples are organized by days, each "day" can be built from Makefile located on
 
 - [Oto Brglez](https://github.com/otobrglez)
 
-## Examples
+## Days
 
 - [Day 01](src/01) - Simple Objective-C app with loops.
 ![day-01](shots/day-01.png)
