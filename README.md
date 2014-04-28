@@ -17,7 +17,8 @@ Examples are organized by days, each "day" can be built from Makefile located on
 - [Day 06](src/06) - Getting to know [NSTextView](), [NSButton][NSButton] and way to build UIs in XCode.
 - [Day 07](src/07) - Introduction to [NSTableView][NSTableView] and [NSFileManager][NSFileManager]
 ![day-07](shots/day-07.png)
-
+- [Day 08](src/08) - Exploring [AFNetworking 2.x][AFNetworking], subclassing of [NSTableCellView][NSTableCellView] and delegates.
+![day-08](shots/day-08.png)
 
 ## Requirements
 
@@ -42,7 +43,9 @@ make clean      # cleans everything
 ```
 
 [NSTextView]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTextView_Class/Reference/Reference.html
+[NSTableCellView]: https://developer.apple.com/library/mac/documentation/cocoa/reference/NSTableCellView_Class/Reference/Reference.html
 [NSButton]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSButton_Class/Reference/Reference.html
 [NSFileManager]: https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/classes/nsfilemanager_class/reference/reference.html
 [NSTableView]: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTableView_Class/Reference/Reference.html
 [LLDB]: https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html
+[AFNetworking]: https://github.com/AFNetworking/AFNetworking

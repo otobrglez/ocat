@@ -9,7 +9,7 @@
 @synthesize userTextField;
 @synthesize consoleTextField;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+- (void) applicationDidFinishLaunching:(NSNotification *)aNotification {
   // [self userRepositories:[userTextField stringValue]];
 }
 
